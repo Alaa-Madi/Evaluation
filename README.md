@@ -65,6 +65,7 @@ npm install
 npm run dev
 
 📋 Key Features
+
 ✅ Full UI replication of both reference sites
 
 ✅ Smooth animations and transitions
