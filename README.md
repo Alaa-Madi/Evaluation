@@ -47,7 +47,8 @@ Evaluation/
 - **Frontend**: React  
 - **Styling**: CSS / Styled Components (MUI,Emotion,Tailwind CSS )  
 - **Build Tool**: Vite
--**Backend**:Next Js
+- **Backend**:Next Js
+- **DabtaBase**: MongoDB
 
 ⚙️ Installation & Usage
 Explain how to run or test the project:
@@ -63,6 +64,7 @@ npm install
 
 # Start the project
 npm run dev
+
 
 📋 Key Features
 
