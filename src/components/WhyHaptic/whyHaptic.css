@@ -1,0 +1,45 @@
+/* whyHaptics.css */
+
+.why-haptics {
+  background-color: #fbba10;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.why-haptics-title {
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.why-haptics-headline {
+  font-weight: 400;
+  font-family: "FK Roman Standard Light", serif;
+  font-style: normal;
+  font-size: 64px;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .why-haptics-headline {
+    font-size: 48px;
+    margin-left: 1rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .why-haptics-headline {
+    font-size: 32px;
+    margin-left: 0.5rem;
+  }
+
+  .why-haptics {
+    padding: 1rem;
+  }
+}

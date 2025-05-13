@@ -1,0 +1,79 @@
+.videoWrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.videoContainer {
+  position: relative;
+  flex: 1 1 50%;
+}
+
+.video {
+  width: 100%;
+  height: auto;
+}
+
+/* Play/Stop Button */
+.iconButton {
+  position: absolute !important;
+  bottom: 20px;
+  right: 20px;
+  width: 80px !important;
+  height: 50px !important;
+  border-radius: 10% !important;
+  background-color: rgba(255, 255, 255, 0.85) !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  transition: background-color 0.2s ease;
+}
+
+.iconButton:hover {
+  background-color: rgba(255, 255, 255, 1) !important;
+}
+
+/* Play icon (triangle) */
+.playIcon {
+  width: 0;
+  height: 0;
+  border-left: 20px solid black;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+}
+
+/* Stop icon (square) */
+.stopIcon {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+}
+
+/* Responsiveness */
+@media (max-width: 1024px) {
+  .videoWrapper {
+    flex-direction: column;
+  }
+
+  .videoContainer {
+    flex: 1 1 100%;
+    padding: 10px 0;
+  }
+
+  .iconButton {
+    width: 60px !important;
+    height: 60px !important;
+  }
+
+  .playIcon {
+    border-left: 16px solid black;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+  }
+
+  .stopIcon {
+    width: 16px;
+    height: 16px;
+  }
+}

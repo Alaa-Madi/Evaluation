@@ -1,0 +1,30 @@
+.paletteContainer {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .colorTrack {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    animation: scrollUp 20s  infinite;
+  }
+  
+  .colorBlock {
+    height: 50px; /* Adjust based on container height */
+    width: 100%;
+    position: relative;
+  }
+  
+  @keyframes scrollUp {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-50%); /* Halfway through duplicated colors */
+    }
+  }

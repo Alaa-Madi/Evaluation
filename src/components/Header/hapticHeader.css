@@ -1,0 +1,27 @@
+/* hapticHeader.css */
+@media (max-width: 768px) {
+  .menu-button-group {
+    flex-direction: column;
+    right: 16px !important;
+    top: 60px !important;
+    padding: 8px;
+    gap: 8px;
+  }
+
+  .logo-text {
+    font-size: 1.5rem !important;
+  }
+  .text{
+    font-size: 1.5rem !important;
+    .container{
+        display: none;
+    }
+  }
+.hiring{
+    display: none;
+}
+  .menu-toggle-button {
+    top: 60px !important;
+    right: 16px !important;
+  }
+}

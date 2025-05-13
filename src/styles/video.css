@@ -1,0 +1,25 @@
+.video-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  .video-container video {
+    transition: all 0.3s ease;
+  }
+  
+  .video-container:hover .video-controls {
+    opacity: 1;
+  }
+  
+  .video-controls {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  @media (max-width: 768px) {
+    .video-controls {
+      opacity: 1;
+    }
+  }
+  

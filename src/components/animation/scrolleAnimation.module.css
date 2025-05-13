@@ -1,0 +1,61 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 200px; /* Increased height */
+  background-color: black;
+  overflow: hidden;
+}
+
+/* Shared container styles */
+.topContainer, .bottomContainer {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  width: 50%;
+}
+
+/* Half-circle styles */
+.halfCircle {
+  width: 100px; /* Slightly larger */
+  height: 200px; /* Taller to match new container height */
+  background-color: white;
+  display: inline-block;
+}
+
+/* Parentheses shapes */
+.rightFacing {
+  border-radius: 50px 0 0 50px;
+  border-right: none;
+}
+
+.leftFacing {
+  border-radius: 0 50px 50px 0;
+  border-left: none;
+}
+
+.scrollerRight, .scrollerLeft {
+  display: flex;
+  position: absolute;
+  height: 100%;
+  top: 0;
+}
+
+.scrollerRight {
+  animation: scrollRight 200s linear infinite;
+}
+
+.scrollerLeft {
+  animation: scrollLeft 200s linear infinite;
+}
+
+/* Keyframes */
+@keyframes scrollRight {
+  from { transform: translateX(0); }
+  to { transform: translateX(-100%); }
+}
+
+@keyframes scrollLeft {
+  from { transform: translateX(-100%); }
+  to { transform: translateX(0); }
+}

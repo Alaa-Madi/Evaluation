@@ -1,0 +1,124 @@
+.container {
+  background-color: #482f22;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.5rem;
+}
+
+.topLabel,
+.bottomLabel {
+  color: #ff6937;
+}
+
+.smallText {
+  font-size: 12px;
+}
+
+.titleBox {
+  width: 100%;
+  max-width: 600px;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-weight: 200;
+  font-size: 50px;
+  font-family: "FK Roman Standard Light", sans-serif;
+  font-style: normal;
+  color: #ff6937;
+}
+
+.rolesContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.roleBox {
+  cursor: pointer;
+}
+
+.roleText {
+  font-weight: 400;
+  font-family: "FK Roman Standard Light", sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  color: #91462a;
+  transition: color 0.3s ease;
+  margin-bottom: 2rem;
+}
+
+.roleText:hover{
+font-size: '10px';
+}.roleTypeText:hover {
+  color: #ff6937;
+}
+
+
+.roleTypeWrapper {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.roleTypeBox {
+  cursor: pointer;
+}
+
+.roleTypeText {
+  font-size: 8px;
+  font-family: "FK Roman Standard Light", sans-serif;
+  font-style: normal;
+  color: #91462a;
+  transition: color 0.3s ease;
+}
+
+@media (max-width: 1024px) {
+  .title {
+    font-size: 36px;
+  }
+
+  .roleText {
+    font-size: 28px;
+  }
+
+  .container {
+    height: auto;
+    padding: 1rem;
+  }
+
+  .rolesContainer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 24px;
+  }
+
+  .roleText {
+    font-size: 20px;
+  }
+
+  .roleTypeText {
+    font-size: 8px;
+  }
+
+  .titleBox {
+    margin-left: 0;
+  }
+
+  .container {
+    padding: 1rem;
+  }
+}
