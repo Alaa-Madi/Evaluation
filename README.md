@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+📌Project Title
+[Evaluation Project for internship program]
 
-## Getting Started
+🧑‍💻 Author
+[Alaa Adnan Abu Madi]
+Intern at [Solution]
+Period:[1Week]
 
-First, run the development server:
+📝 Project Description
 
-```bash
+This project was developed as part of a frontend internship training program. The goal was to replicate the websites [oh.studio](https://oh.studio) and [haptic.studio] using **Next JS**, focusing on accurate UI/UX, interactivity, and responsiveness .
+
+
+📂 Folder Structure (Optional)
+Evaluation/
+├── app/
+│ ├── api/project/ 
+│ ├── haptic/ 
+│ ├── oh-studio/ 
+│ ├── layout.tsx 
+│ ├── page.tsx 
+│ └── globals.css # Global styles (Tailwind + custom CSS)
+├── components/ 
+│   └── Brands/
+│   └──Footer/
+│   └──Header/
+│   └──Partners/
+│   └──Pricing/
+│   └──Video/
+│   └──WhyHaptic/
+│   └──WorkHaptic/
+│   └──animation/
+│   └──oh-sudio/
+│   └──projects/
+├── public/ 
+│ └── assets
+│ └── favicon.ico
+├──lib/
+├── models/
+├──pages/
+├── shared/
+├──styles/
+├── type/
+└── README.md
+
+🧱 Tech Stack
+- **Frontend**: React  
+- **Styling**: CSS / Styled Components (MUI,Emotion,Tailwind CSS )  
+- **Build Tool**: Vite
+-**Backend**:Next Js
+
+⚙️ Installation & Usage
+Explain how to run or test the project:
+
+# Clone the repository
+git clone https://github.com/Alaa-Madi/Evaluation.git
+
+# Move into the project directory
+cd Evaluation
+
+# Install dependencies
+npm install
+
+# Start the project
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📋 Key Features
+✅ Full UI replication of both reference sites
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+✅ Smooth animations and transitions
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+✅ Mobile & desktop responsiveness
 
-## Learn More
+✅ Clean, component-based React code
 
-To learn more about Next.js, take a look at the following resources:
+✅ Backend integration (optional part) get project with gallery images from Mogno database using API
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
